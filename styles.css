@@ -1,0 +1,72 @@
+body {
+    background-color: #6f4e37 !important; /* Black background */
+    color: white; /* White text */
+   
+  }
+
+
+.spacer{
+  height: 20px;
+}
+
+
+.navbar-custom{
+    background-color: #3b2f2f !important ;
+}
+
+.logo {
+  color: #D2B48C !important ;
+}
+
+.text{
+  color:whitesmoke !important;
+}
+
+
+
+.list-background-color{
+  background-color: #6f4e37 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  
+
+
+}
+
+.list-text-color{
+  color: black !important;
+}
+
+
+
+.recommendedMovies{
+  color: white;
+  margin-top: 25px;
+  margin-left: 50px;
+  /* margins move the text*/
+  
+  
+}
+
+.movie-list{
+  list-style-type: none;  /* remove bullet point flex gives space flex wrap makes go to rows */
+  display: flex;
+  flex-wrap: wrap; /*wrap next row*/
+  font-size: 20px;
+  text-align: center; /* centers the text under picture*/
+  gap: 80px; /* space between each movie */
+  
+ 
+}
+
+.movie-item img{
+  width: 200px; /* size of pictures*/
+  height: 300px;
+  border-radius: 8px;  /* round the corners*/
+  margin-bottom: 10px; /* space between top and bottom picture*/
+  object-fit: cover;
+  
+ 
+}
+
